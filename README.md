@@ -1,4 +1,3 @@
-# Dillinger
 ## Repository for *SP*
 
 This repository contains the software and data for the paper: *Structured Pixels: Using Satellite Imageries as Interventions for Causal Effect Estimation,* accepted at Hawaii International Conference on System Sciences (HICSS) 2026
@@ -21,6 +20,7 @@ To prepare the data for experiments, follow the instructions below.
 
 ### Experiment 1 (EuroSAT)
 ```bash
+mkdir data
 cd data
 wget -O EuroSAT_MS.zip "https://zenodo.org/records/7711810/files/EuroSAT_MS.zip?download=1"
 wget -O EuroSAT_RGB.zip "https://zenodo.org/records/7711810/files/EuroSAT_RGB.zip?download=1"
